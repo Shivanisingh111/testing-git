@@ -2,12 +2,24 @@
 <html>
     <head>
         <title>this is HTML FORM</title>
+        <!--for external css we have to link the page-->
+        <link ref="stylesheet" href="style.css">
+        <!--this is internal styling using element selectors-->
+        <Style>
+            p{
+                color:rgb(30, 210, 96);
+                
+            }
+            
+        </Style>
     </head>
     <body>
-        <p>FORM</p>
-        <a href="abc.html">ABOUT</a>
+        <h1 id="heading">REGISTRATION FORM</h1>
+        <a href="abc.html">ABOUT</a><hr>
         <br><br>
-        <form>
+        <p>Enter your details</p>
+        <!-- this is incline styling and the the closest the element will get selected-->
+        <form style="background-color:rgb(232, 220, 245);color:brown">
             <label for="name">Name</label>
             <input type="text" id="name" name="name">
             <label for="email">Email</label>
@@ -38,10 +50,10 @@
                 <option value="three">THREE</option>
                 <option value="four">FOUR</option>
             </select>
-
-            <!--fjawbfjabsjdf-->
             <input type="date"><br>
             <input type="file" name="img">
+            <h3 class="abc">Submit this form</h3><br>
+            <h3 class="abc">Click submit</h3>
 
             <button type="submit">Submit</button>
         </form>
