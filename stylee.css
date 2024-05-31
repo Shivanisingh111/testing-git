@@ -1,10 +1,8 @@
-#heading{
-    color:rgb(89, 42, 165);
+#div{
     font-size: 100px;
 }
-.abc{
-    color:skyblue;
-    font-size: 40%
+#p{
+    font-size: 2em;
 }
 #a:visited{
     color: red;
@@ -17,4 +15,7 @@
 }
 #a:hover{
     color: rgb(183, 255, 0);
+}
+#p:hover{
+    background-color: aqua;
 }

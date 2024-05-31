@@ -1,0 +1,6 @@
+#ul{
+    list-style-type: circle;
+}
+#ul li{
+    border:2px solid red;
+}

@@ -3,19 +3,20 @@
     <head>
         <title>this is HTML FORM</title>
         <!--for external css we have to link the page-->
-        <link ref="stylesheet" href="style.css">
-        <!--this is internal styling using element selectors-->
+        <link rel="stylesheet" href="style.css">
+        <!--this is internal styling using element selectors
         <Style>
             p{
                 color:rgb(30, 210, 96);
                 
             }
+            -->
             
         </Style>
     </head>
     <body>
         <h1 id="heading">REGISTRATION FORM</h1>
-        <a href="abc.html">ABOUT</a><hr>
+        <a href="abc.html" id="a">ABOUT</a><hr>
         <br><br>
         <p>Enter your details</p>
         <!-- this is incline styling and the the closest the element will get selected-->
@@ -52,10 +53,16 @@
             </select>
             <input type="date"><br>
             <input type="file" name="img">
-            <h3 class="abc">Submit this form</h3><br>
-            <h3 class="abc">Click submit</h3>
+
+
+            
 
             <button type="submit">Submit</button>
         </form>
+
+        <div>
+        <h3 class="abc">Submit this form</h3><br>
+        <h3 class="abc">Click submit</h3>
+    </div>
     </body>
 </html>
