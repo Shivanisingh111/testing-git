@@ -1,3 +1,6 @@
+// Java Script: js is easy as we can directly interact with the data.
+
+
 //alert("hi")
 
 // let const var (to create variable)
@@ -89,7 +92,7 @@
 // conditon executed atleast once
 //while(i)
 
-const arr=[23,13,35,45,54,74];
+// const arr=[23,13,35,45,54,74];
 // console.log(arr.length);
 
 // arr.forEach((items,a)=>{ // 1st the codition then index (item,index)
@@ -138,27 +141,45 @@ const arr=[23,13,35,45,54,74];
 
 // console.log(totalPrice); // to reduce all array into single value
 
-const items=[23,45,76,98,94];
+// const items=[23,45,76,98,94];
 
 // const data=items.some((item)=>item>23); //to fulful atleast one condition
 // console.log(data);
 
-sorteditems=items.sort((a,b)=>a-b);
-console.log(sorteditems);
+// sorteditems=items.sort((a,b)=>a-b);
+// console.log(sorteditems);
 
-const user={
-    fname:"uta",
-    lname:"haru",
-    age:21,
-    address:{
-        city:"Shinjuku",
-        state:"tokyo"
-    },
-    fullName:function(){
-        return this.fname + " " + this.lname
-    }
-};
+// const user={
+//     fname:"uta",
+//     lname:"haru",
+//     age:21,
+//     address:{
+//         city:"Shinjuku",
+//         state:"tokyo"
+//     },
+//     fullName:function(){
+//         return this.fname + " " + this.lname
+//     }
+// };
 
-user.lname="hibiki";
-console.log(user);
+// user.lname="hibiki";
+// console.log(user);
 
+// DOM(Document object Model) : browser do parsing(html page) and create dom tree and dom tree is printed in the browser.
+// With the help of js we can create a dom tree and manipulate our data on the browser without affecting the html page.
+
+// const btn = document.getElementById("btn");
+// console.log(btn);
+
+// const text=btn.innerText="dont click me"
+
+
+// btn.addEventListener("dblclick",()=>{
+//     console.log("clicked");
+// });
+
+// const ele=document.getElementsByClassName("one");
+// console.log(ele);
+
+const ele=document.querySelectorAll(".one"); // get node list
+console.log(ele); // it will return the all items and for one remove all
