@@ -1,4 +1,4 @@
-#div{
+/*#div{
     font-size: 100px;
 }
 #p{
@@ -18,4 +18,13 @@
 }
 #p:hover{
     background-color: aqua;
+}*/
+
+#div{
+    
+    padding:25px;
+    border:2px solid blue;
+    margin: 0 auto; /* to make element at the center */
+    width: 400px;
+    box-sizing: border-box; /* to include border inside content */
 }

@@ -1,0 +1,23 @@
+.one{
+    background-color: rgb(58, 226, 43);
+    width:150px;
+    /*flex-grow: 1;*/
+}
+#div{
+    display: flex;
+    flex-wrap: wrap;
+    height:500px;
+    flex-direction: row;
+    background-color: red;
+    justify-content: space-evenly;/*space around,center,space between,flex start,end,left,right*/
+    /*flex basis is used to give items its width*/
+
+}
+
+#two{
+    /*flex-grow: 2;*/
+}
+
+#three{
+    /*flex-grow: 3;*/
+}
