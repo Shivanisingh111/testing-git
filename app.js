@@ -178,8 +178,38 @@
 //     console.log("clicked");
 // });
 
-// const ele=document.getElementsByClassName("one");
+// const ele=document.getElementsByClassName("one"); 
 // console.log(ele);
 
-const ele=document.querySelectorAll(".one"); // get node list
-console.log(ele); // it will return the all items and for one remove all
+// const ele=document.querySelectorAll(".one"); // get node list
+// console.log(ele); // it will return the all items and for one remove all
+
+// const anchor=document.getElementById("link");
+// anchor.setAttribute("href","http://www.google.com");
+
+// const anchor=document.getElementById("test");
+// anchor.setAttribute("class","xyz");
+// anchor.classList.add("zyx");
+// anchor.classList.remove("one");
+// console.log(anchor.classList);
+
+// const div=document.getElementById("div");
+// let mypara=document.createElement("p");
+// mypara.textContent="this is new paragraph generated using java script";
+// div.appendChild(mypara);
+// console.log(mypara);
+
+const button=document.getElementById("button");
+
+const div=document.getElementById("div");
+
+button.addEventListener("click",(e)=>{
+    e.stopPropagation();
+    console.log(e.target);
+    console.log("button clicked")
+});
+
+div.addEventListener("click",(e)=>{
+    console .log(e.target);
+    console.log("div called");
+})
